@@ -1,0 +1,149 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "captchaT Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "captchaT"
+            VALUE "LegalCopyright", "Copyright (C) 2009"
+            VALUE "OriginalFilename", "captchaT.exe"
+            VALUE "ProductName", "captchaT Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 186, 287
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CaptchaTest"
+FONT 9, "ÀŒÃÂ", 400, 0, 0x86
+BEGIN
+    GROUPBOX        "Captch Image",IDC_STATIC,7,7,172,116
+    CONTROL         "",IDC_CANVAS,"Static",SS_BLACKRECT,50,26,85,85
+    GROUPBOX        "≤Œ ˝",IDC_STATIC,7,131,172,149
+    CONTROL         "",IDC_SLIDER_X,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,74,141,101,13
+    LTEXT           "‘≤ª∑Œª÷√x:",IDC_STATIC,17,143,51,12
+    CONTROL         "",IDC_SLIDER_Y,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,74,161,101,13
+    LTEXT           "‘≤ª∑Œª÷√y:",IDC_STATIC,17,162,51,12
+    CONTROL         "",IDC_SLIDER_FREQUENCY,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,74,181,101,13
+    LTEXT           "‘≤ª∑≤®∆µ:",IDC_STATIC,17,181,51,12
+    CONTROL         "",IDC_SLIDER_CYLINDER_F,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,74,201,101,13
+    LTEXT           "»≈≤®≤®∆µ:",IDC_STATIC,17,200,51,12
+    CONTROL         "",IDC_SLIDER_CYLINDER_ANGLE,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,74,221,101,13
+    LTEXT           "»≈≤®Ω«∂»:",IDC_STATIC,17,219,51,12
+    LTEXT           "»≈≤®∑≈Àı:",IDC_STATIC,17,238,51,12,NOT WS_VISIBLE
+    CONTROL         "",IDC_SLIDER_CYLINDER_SCALE,"msctls_trackbar32",TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,74,240,101,13
+    PUSHBUTTON      "ÀÊª˙!",IDC_BUTTON_RAND,64,259,57,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

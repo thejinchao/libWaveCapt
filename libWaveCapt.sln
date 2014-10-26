@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libnoise", "libnoise-1.0.0\libnoise_vc8.vcxproj", "{3AC796F8-7A75-4EA8-84B6-F3F5535F4072}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libWaveCapt", "libWaveCapt\libWaveCapt.vcxproj", "{6117B03A-6F62-4FE3-A183-1D7BC7FEAE3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "captUtil", "captUtil\captUtil.vcxproj", "{BDBFB4FB-45D3-43C2-9E04-9DF8D27689A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC796F8-7A75-4EA8-84B6-F3F5535F4072}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AC796F8-7A75-4EA8-84B6-F3F5535F4072}.Debug|Win32.Build.0 = Debug|Win32
+		{3AC796F8-7A75-4EA8-84B6-F3F5535F4072}.Release|Win32.ActiveCfg = Release|Win32
+		{3AC796F8-7A75-4EA8-84B6-F3F5535F4072}.Release|Win32.Build.0 = Release|Win32
+		{6117B03A-6F62-4FE3-A183-1D7BC7FEAE3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6117B03A-6F62-4FE3-A183-1D7BC7FEAE3A}.Debug|Win32.Build.0 = Debug|Win32
+		{6117B03A-6F62-4FE3-A183-1D7BC7FEAE3A}.Release|Win32.ActiveCfg = Release|Win32
+		{6117B03A-6F62-4FE3-A183-1D7BC7FEAE3A}.Release|Win32.Build.0 = Release|Win32
+		{BDBFB4FB-45D3-43C2-9E04-9DF8D27689A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDBFB4FB-45D3-43C2-9E04-9DF8D27689A5}.Debug|Win32.Build.0 = Debug|Win32
+		{BDBFB4FB-45D3-43C2-9E04-9DF8D27689A5}.Release|Win32.ActiveCfg = Release|Win32
+		{BDBFB4FB-45D3-43C2-9E04-9DF8D27689A5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
